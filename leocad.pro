@@ -155,12 +155,20 @@ macx {
 
 	document_icon.files += $$_PRO_FILE_PWD_/resources/leocad_document.icns
 	document_icon.path = Contents/Resources
-	library.files += $$_PRO_FILE_PWD_/library.bin
-	library.path = Contents/Resources
-	povray.files += $$_PRO_FILE_PWD_/povray
-	povray.path = Contents/MacOS
+	QMAKE_BUNDLE_DATA += document_icon
 
-	QMAKE_BUNDLE_DATA += document_icon library povray
+	# library.bin (compiled LDraw parts) and povray are built separately;
+	# only bundle them when present so a bare checkout still builds.
+	exists($$_PRO_FILE_PWD_/library.bin) {
+		library.files += $$_PRO_FILE_PWD_/library.bin
+		library.path = Contents/Resources
+		QMAKE_BUNDLE_DATA += library
+	}
+	exists($$_PRO_FILE_PWD_/povray) {
+		povray.files += $$_PRO_FILE_PWD_/povray
+		povray.path = Contents/MacOS
+		QMAKE_BUNDLE_DATA += povray
+	}
 	DEFINES += LC_DISABLE_UPDATE_CHECK=1
 }
 
