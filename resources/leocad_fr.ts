@@ -2271,22 +2271,22 @@
     <message>
         <location filename="../common/lc_commands.cpp" line="1423"/>
         <source>&amp;Hide Selected</source>
-        <translation>&amp;Cache la sélection</translation>
+        <translation>&amp;Cacher la sélection</translation>
     </message>
     <message>
         <location filename="../common/lc_commands.cpp" line="1430"/>
         <source>Hide &amp;Unselected</source>
-        <translation>Cacher l’&amp;anti-sélection</translation>
+        <translation>Cacher les &amp;non-sélectionnés</translation>
     </message>
     <message>
         <location filename="../common/lc_commands.cpp" line="1437"/>
         <source>&amp;Unhide Selected</source>
-        <translation>&amp;Décacher la sélection</translation>
+        <translation>&amp;Afficher la sélection</translation>
     </message>
     <message>
         <location filename="../common/lc_commands.cpp" line="1444"/>
         <source>U&amp;nhide All</source>
-        <translation>Décacher &amp;tout</translation>
+        <translation>Afficher &amp;tout</translation>
     </message>
     <message>
         <location filename="../common/lc_commands.cpp" line="1451"/>
@@ -2868,7 +2868,7 @@ Le format de fichier n'est pas reconnu.</translation>
     <message>
         <location filename="../common/group.cpp" line="43"/>
         <source>Group #</source>
-        <translation>Group n°</translation>
+        <translation>Groupe n°</translation>
     </message>
     <message>
         <source>Solid Colors</source>
@@ -3493,7 +3493,7 @@ Le format de fichier n'est pas reconnu.</translation>
     <message>
         <location filename="../common/lc_commands.cpp" line="864"/>
         <source>Do not use a camera</source>
-        <translation>Ne pas utiler de caméra</translation>
+        <translation>Ne pas utiliser de caméra</translation>
     </message>
     <message>
         <location filename="../common/lc_commands.cpp" line="871"/>
@@ -3887,19 +3887,19 @@ Le format de fichier n'est pas reconnu.</translation>
         <location filename="../common/lc_commands.cpp" line="1298"/>
         <location filename="../common/lc_commands.cpp" line="1305"/>
         <source>Rotate selected objects along the X axis</source>
-        <translation>Tourner les objets sélections suivant l’axe X</translation>
+        <translation>Tourner les objets sélectionnés suivant l’axe X</translation>
     </message>
     <message>
         <location filename="../common/lc_commands.cpp" line="1312"/>
         <location filename="../common/lc_commands.cpp" line="1319"/>
         <source>Rotate selected objects along the Y axis</source>
-        <translation>Tourner les objets sélections suivant l’axe Y</translation>
+        <translation>Tourner les objets sélectionnés suivant l’axe Y</translation>
     </message>
     <message>
         <location filename="../common/lc_commands.cpp" line="1326"/>
         <location filename="../common/lc_commands.cpp" line="1333"/>
         <source>Rotate selected objects along the Z axis</source>
-        <translation>Tourner les objets sélections suivant l’axe Z</translation>
+        <translation>Tourner les objets sélectionnés suivant l’axe Z</translation>
     </message>
     <message>
         <location filename="../common/lc_commands.cpp" line="1340"/>
@@ -4043,9 +4043,9 @@ Le format de fichier n'est pas reconnu.</translation>
         <source>LeoCAD could not find a compatible Parts Library so only a small number of parts will be available.
 
 Please visit https://www.leocad.org for information on how to download and install a library.</source>
-        <translation>LeoCAD n’a pas pu trouver une bibliothèque de pièces compatible donc seulement un petit nombre de pièces seront disponibles.
+        <translation>LeoCAD n’a pas pu trouver de bibliothèque de pièces compatible, donc seul un petit nombre de pièces seront disponibles.
 
-SVP visitez https://www.leocad.org pour apprendre comment télécharger et installer une bibliothèque.</translation>
+Rendez-vous sur https://www.leocad.org pour savoir comment télécharger et installer une bibliothèque.</translation>
     </message>
     <message>
         <location filename="../common/lc_application.cpp" line="419"/>
@@ -4536,7 +4536,7 @@ SVP visitez https://www.leocad.org pour apprendre comment télécharger et insta
 Please visit https://www.leocad.org for information on how to download and install a library.</source>
         <translation>LeoCAD n’a pas pu charger la bibliothèque de pièces.
 
-SVP visitez https://www.leocad.org pour apprendre comment télécharger et installer une bibliothèque.</translation>
+Rendez-vous sur https://www.leocad.org pour savoir comment télécharger et installer une bibliothèque.</translation>
     </message>
     <message>
         <location filename="../common/lc_application.cpp" line="1026"/>
@@ -4634,7 +4634,7 @@ SVP visitez https://www.leocad.org pour apprendre comment télécharger et insta
     <message>
         <location filename="../common/lc_edgecolordialog.cpp" line="87"/>
         <source>Stud Cylinder Color:</source>
-        <translation>Couleur du cylindre de téton :</translation>
+        <translation>Couleur du cylindre de tenon :</translation>
     </message>
     <message>
         <location filename="../common/lc_edgecolordialog.cpp" line="105"/>
@@ -4654,7 +4654,7 @@ SVP visitez https://www.leocad.org pour apprendre comment télécharger et insta
     <message>
         <location filename="../common/lc_edgecolordialog.cpp" line="219"/>
         <source>Select Stud Cylinder Color</source>
-        <translation>Sélectionner la couleur du cylindre de téton</translation>
+        <translation>Sélectionner la couleur du cylindre de tenon</translation>
     </message>
     <message>
         <location filename="../common/lc_edgecolordialog.cpp" line="224"/>
@@ -5053,7 +5053,7 @@ SVP visitez https://www.leocad.org pour apprendre comment télécharger et insta
     <message>
         <location filename="../common/lc_mainwindow.cpp" line="737"/>
         <source>Timeline</source>
-        <translation>Ligne temporelle</translation>
+        <translation>Chronologie</translation>
     </message>
     <message>
         <location filename="../common/lc_mainwindow.cpp" line="784"/>
@@ -5202,7 +5202,7 @@ SVP visitez https://www.leocad.org pour apprendre comment télécharger et insta
     <message>
         <location filename="../common/lc_mainwindow.cpp" line="2446"/>
         <source>Saving files in LCD format is no longer supported, please use the LDR or MPD formats instead.</source>
-        <translation>Enregistrer les fichiers sous le format LCD n’est plus possible, SVP utiliser les formats LDR ou MPD à la place.</translation>
+        <translation>L’enregistrement des fichiers au format LCD n’est plus pris en charge, veuillez utiliser les formats LDR ou MPD à la place.</translation>
     </message>
     <message>
         <location filename="../common/lc_mainwindow.cpp" line="2465"/>
@@ -5425,7 +5425,7 @@ SVP visitez https://www.leocad.org pour apprendre comment télécharger et insta
     <message>
         <location filename="../common/lc_model.cpp" line="1768"/>
         <source>Inserting Step</source>
-        <translation>Insértion d’une étape</translation>
+        <translation>Insertion d’une étape</translation>
     </message>
     <message>
         <location filename="../common/lc_model.cpp" line="1787"/>
@@ -6396,7 +6396,7 @@ Anisotrope : %5
     <message>
         <location filename="../common/lc_imagedialog.ui" line="54"/>
         <source>Width:</source>
-        <translation>Largueur :</translation>
+        <translation>Largeur :</translation>
     </message>
     <message>
         <location filename="../common/lc_imagedialog.ui" line="80"/>
@@ -6446,12 +6446,12 @@ Anisotrope : %5
     <message>
         <location filename="../common/lc_imagedialog.cpp" line="54"/>
         <source>Please enter a width between 1 and 32768.</source>
-        <translation>SVP entrez une largeur entre 1 et 32768.</translation>
+        <translation>Veuillez saisir une largeur entre 1 et 32768.</translation>
     </message>
     <message>
         <location filename="../common/lc_imagedialog.cpp" line="62"/>
         <source>Please enter a height between 1 and 32768.</source>
-        <translation>SVP entrez une hauteur entre 1 et 32768.</translation>
+        <translation>Veuillez saisir une hauteur entre 1 et 32768.</translation>
     </message>
     <message>
         <location filename="../common/lc_imagedialog.cpp" line="117"/>
@@ -6763,7 +6763,7 @@ Anisotrope : %5
     <message>
         <location filename="../qt/lc_qpreferencesdialog.ui" line="436"/>
         <source>Anti-aliasing</source>
-        <translation>Anti-aliasing</translation>
+        <translation>Anticrénelage</translation>
     </message>
     <message>
         <location filename="../qt/lc_qpreferencesdialog.ui" line="444"/>
@@ -7322,7 +7322,7 @@ Anisotrope : %5
         <location filename="../qt/lc_qpreferencesdialog.ui" line="1719"/>
         <location filename="../qt/lc_qpreferencesdialog.ui" line="1853"/>
         <source>Shortcut</source>
-        <translation>Raccourcis</translation>
+        <translation>Raccourci</translation>
     </message>
     <message>
         <location filename="../qt/lc_qpreferencesdialog.ui" line="1668"/>
@@ -7478,7 +7478,7 @@ Anisotrope : %5
     <message>
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="487"/>
         <source>Select Grid Stud Color</source>
-        <translation>Choisir le couleur des tenons de la grille</translation>
+        <translation>Sélectionner la couleur des tenons de la grille</translation>
     </message>
     <message>
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="493"/>
@@ -7533,7 +7533,7 @@ Anisotrope : %5
     <message>
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="665"/>
         <source>Unassigned</source>
-        <translation>Non-attribué</translation>
+        <translation>Non attribué</translation>
     </message>
     <message>
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="779"/>
@@ -7625,7 +7625,7 @@ Anisotrope : %5
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="1217"/>
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="1226"/>
         <source>Override Shortcut</source>
-        <translation>Écraser le raccourcis</translation>
+        <translation>Écraser le raccourci</translation>
     </message>
     <message>
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="392"/>
@@ -7636,7 +7636,7 @@ Anisotrope : %5
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="1217"/>
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="1226"/>
         <source>This shortcut is already assigned to &apos;%1&apos;, do you want to replace it?</source>
-        <translation>Ce raccourcis est déjà attribué à « %1 », voulez-vous le remplacer ?</translation>
+        <translation>Ce raccourci est déjà attribué à « %1 », voulez-vous le remplacer ?</translation>
     </message>
     <message>
         <location filename="../qt/lc_qpreferencesdialog.cpp" line="1273"/>
@@ -7945,12 +7945,12 @@ Anisotrope : %5
     <message>
         <location filename="../common/lc_updatedialog.cpp" line="118"/>
         <source>&lt;p&gt;There are new parts available.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Il y a de nouvelle pièces disponibles.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;De nouvelles pièces sont disponibles.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../common/lc_updatedialog.cpp" line="122"/>
         <source>&lt;p&gt;There are no new parts available at this time.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Il n’y a pas de nouvelle pièces disponibles en ce moment.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Aucune nouvelle pièce n’est disponible pour le moment.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../common/lc_updatedialog.cpp" line="127"/>
